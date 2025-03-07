@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  width: 45%;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section input[type="file"] {
+  margin-top: 10px;
+}
+
+.books-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.books-list li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+
+.books-list li:hover {
+  background-color: #e0e0e0;
+}
+
+.reading-area {
+  text-align: left;
+  min-height: 300px;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.book-content {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.book-content p {
+  margin-bottom: 1em;
+  text-indent: 2em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.clickable-word {
+  cursor: pointer;
+  display: inline;
+}
+
+.clickable-word:hover {
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+
+.word-list {
+  text-align: left;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.word-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.word-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.word-list select {
+  margin-top: 5px;
+}
+
+.translation {
+  margin-top: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+.api-key-warning {
+  background-color: #ffcccc;
+  color: #cc0000;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
