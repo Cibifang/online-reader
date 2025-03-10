@@ -1,8 +1,8 @@
-module online-reader
+module github.com/Cibifang/online-reader/backend
 
-go 1.19
+go 1.16
 
 require (
-	github.com/gorilla/mux v1.8.1 // indirect
+	github.com/gorilla/mux v1.8.0
 	github.com/rs/cors v1.11.1 // indirect
 )
